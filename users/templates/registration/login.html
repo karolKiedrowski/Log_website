@@ -1,0 +1,17 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+    <h2>Zaloguj sie do konta</h2>
+{% endblock page_header %}
+
+{% block content %}
+    <form method="post" action="{% url 'users:login' %}" class="form">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button name="submit" class="btn btn-primary">Login</button>
+
+        <input type="hidden" name="next" value="{% url 'learning_logs:index' %}"/>
+    </form>
+
+{% endblock content %}

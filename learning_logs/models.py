@@ -1,15 +1,18 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Topic(models.Model):
     """Topic learned by a user."""
     text = models.CharField(max_length=200)
     dateAdded = models.DateTimeField(auto_now_add=True)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
         """Returns model as a string."""
         return self.text
     
+
 class Entry(models.Model):
     """Specific infromation about learning progress."""
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
