@@ -1,14 +1,12 @@
 {% extends "learning_logs/base.html" %}
 
 {% block page_header %}
-<h1>Tematy</h1>
+<h1>Topics</h1>
 {% endblock page_header %}
 
 {% block content %}
 
-    <p>Tematy</p>
-
-    <ul>
+<ul>
         {% for topic in topics %}
             <li><h3>
                 <a href="{% url 'learning_logs:topic' topic.id %}">{{topic}}</a>
