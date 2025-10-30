@@ -9,10 +9,6 @@ This project is an example that was build along with a "Python Crash Course" boo
 * Manage users, which includes registry, login, logout and managing user specific resources.
 * Add style with the use of the Bootstrap framework.
 
-## Link to the repository.
-
-https://github.com/karolKiedrowski/Log_website
-
 ## See the deployed website!
 
 https://karolkiedr.pythonanywhere.com/
@@ -23,12 +19,11 @@ https://karolkiedr.pythonanywhere.com/
 
 ![Here should be a single topic page picture.](https://github.com/karolKiedrowski/Log_website/blob/master/images/topic_page.png?raw=true)
 
-
 ## Project setup.
 
 The easiest way is to see how this works is to read it in the book, but here is the short version.
 
-1. Clone this project.
+1. Clone this project: https://github.com/karolKiedrowski/Log_website.
 2. Set up python virtual environment: https://docs.python.org/3/library/venv.html.
 3. Enter virtual environment.
 3. Install Django - `python -m pip install Django`
