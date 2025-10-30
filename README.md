@@ -17,11 +17,11 @@ https://github.com/karolKiedrowski/Log_website
 
 https://karolkiedr.pythonanywhere.com/
 
-![Here should be a main page picture.](images/main_page.png)
+![Here should be a main page picture.](https://github.com/karolKiedrowski/Log_website/blob/master/images/main_page.png)
 
-![Here should be a topics page picture.](images/topics_page.png)
+![Here should be a topics page picture.](https://github.com/karolKiedrowski/Log_website/blob/master/images/topics_page.png)
 
-![Here should be a single topic page picture.](images/topic_page.png)
+![Here should be a single topic page picture.](https://github.com/karolKiedrowski/Log_website/blob/master/images/topic_page.png)
 
 
 ## Project setup.
