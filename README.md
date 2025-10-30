@@ -9,9 +9,20 @@ This project is an example that was build along with a "Python Crash Course" boo
 * Manage users, which includes registry, login, logout and managing user specific resources.
 * Add style with the use of the Bootstrap framework.
 
+## Link to the repository.
+
+https://github.com/karolKiedrowski/Log_website
+
 ## See the deployed website!
 
 https://karolkiedr.pythonanywhere.com/
+
+![Here should be a main page picture.](images/main_page.png)
+
+![Here should be a topics page picture.](images/topics_page.png)
+
+![Here should be a single topic page picture.](images/topic_page.png)
+
 
 ## Project setup.
 
