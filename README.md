@@ -1,6 +1,6 @@
 # Learning Log
 
-## A training application for better understanding of Django framework and website deployment process. This app allows registered users to monitor learning progress in topics that they want to track. For each topic user can add entries that can summarize what user has learned.
+#### A training application for better understanding of Django framework and website deployment process. This app allows registered users to monitor learning progress in topics that they want to track. For each topic user can add entries that can summarize what user has learned.
 
 This project is an example that was build along with a "Python Crash Course" book showing how to write applications in Python language, including creating your own web applications. Every part of this project is sample code which shown how to do the following:
 
